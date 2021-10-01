@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Registeration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="all-form">
+
+        <form action="" onsubmit="return check()">
+            <h1>Registeration</h1>
+            <div class="part">
+                <div class="details">
+                    <label>Full Name</label></br>
+                    <input type="text" name="Your name" id="name" /></br></br>
+                    <span id="name-id"></span></br>
+                </div>
+                <div class="details">
+                    <label>Username</label></br>
+                    <input type="text" name="Your Username" id="Username" /></br></br>
+                    <span id="username-id"></span></br>
+                </div>
+            </div>
+            <div class="part">
+                <div class="details">
+                    <label>Email</label></br>
+                    <input type="text" name=" Your Email" id="email" /></br></br>
+                    <span id="email-id"></span></br>
+                </div>
+                <div class="details">
+                    <label>Phone Number</label></br>
+                    <input type="text" name="Your Phone Number" id="phone-no" /></br></br>
+                    <span id="phone-id"></span></br>
+                </div>
+            </div>
+            <div class="part">
+                <div class="details">
+                    <label>Password</label></br>
+                    <input type="password" name="Your password" id="password" /></br>
+                    <input type="checkbox" id="checkbox-id" onclick="seepass()" />See password</br>
+                    <span id="password-id"></span></br>
+                </div>
+                <div class="details">
+                    <label>Confirm password</label></br>
+                    <input type="password" id="password-confirm" /></br></br>
+                    <span id="confirmPassword-id"></span></br>
+                </div>
+            </div>
+
+            <div class="part">
+
+                <div class="gender-details">
+                    <label>
+                        Gender
+                    </label>
+                    </br></br>
+                    <div class="g-details">
+                        <label>Male</label>
+                        <input type="radio" name="gender" required />
+                    </div>
+                    <div class="g-details">
+                        <label>Female</label>
+                        <input type="radio" name="gender" />
+                    </div>
+                    <div class="g-details">
+                        <label>Prefer not to say</label>
+                        <input type="radio" name="gender" />
+                    </div>
+                    </br></br><button>Submit</button></br>
+
+                </div>
+                <a href="" onclick="clearFunc()">Clear form</a>
+            </div>
+    </div>
+    </form>
+
+    <script src="index.js" charset="utf-8"></script>
+    </div>
+
+</body>
+
+</html>

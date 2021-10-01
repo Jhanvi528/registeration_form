@@ -1,0 +1,110 @@
+body {
+  text-align: left;
+  font-family: "Baloo 2", cursive, "HelveticaNeue-Light", "Helvetica Neue Light",
+    "Helvetica Neue", "Helvetica, Arial", "Lucida Grande", "sans-serif";
+  background-image: url("background-img.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+
+  background-size: cover;
+}
+
+div .details {
+  position: relative;
+  display: inline-block;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+@media (max-width: 1100px) {
+  div .details {
+    position: static;
+    display: block;
+  }
+}
+.all-form {
+  background-color: #27272c;
+  border-radius: 100%;
+  margin-right: 10%;
+  margin-left: 10%;
+  padding-top: 0.5%;
+  padding-bottom: 2%;
+}
+@media (max-width: 1100px) {
+  .all-form {
+    background-color: #27272c;
+    border-radius: 0%;
+  }
+}
+h1 {
+  text-align: center;
+  font-size: 4rem;
+  color: #ab79d6;
+  margin-bottom: 0px;
+}
+
+label {
+  font-size: 1.5rem;
+}
+div .gender-details {
+  text-align: center;
+  color: #e05d5d;
+  font-weight: bolder;
+}
+button {
+  background: #e3afbc;
+  border-radius: 1000px;
+  padding: 10px 30px;
+  color: #5d001e;
+  display: inline-block;
+  font: normal bold 36px/1 "Ubuntu", sans-serif;
+  text-align: center;
+  text-shadow: 1px 1px #000000;
+  margin-bottom: 2%;
+}
+button:hover {
+  background-color: #9a1750;
+}
+
+.gender-details .g-details {
+  margin-left: 4%;
+  margin-right: 4%;
+  position: relative;
+  display: inline-block;
+}
+
+.gender-details .g-details label {
+  font-size: 1.5rem;
+  color: #d367c1;
+}
+.gender-details .g-details input {
+  height: 20px;
+  width: 20px;
+}
+.part {
+  color: #e05d5d;
+  font-weight: bolder;
+  text-align-last: center;
+}
+
+.details input {
+  padding: 2% 5% 2% 5%;
+  width: 300px;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+span {
+  color: yellow;
+
+  height: 30px;
+  width: 100px;
+  font-weight: bold;
+}
+.details #checkbox-id {
+  width: auto;
+  margin-right: 5%;
+  
+}
+a{
+  color:aqua;
+  font-weight: 100;
+}
